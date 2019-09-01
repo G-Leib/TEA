@@ -1,1 +1,1 @@
-*.code-workspace
+TinyEncryptionAlgorithm.code-workspace
