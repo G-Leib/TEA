@@ -1,5 +1,3 @@
-import static java.lang.Integer.parseInt;
-
 import java.util.Scanner;
 
 /* Single pair of rounds TEA encryption */

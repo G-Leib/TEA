@@ -1,5 +1,3 @@
-import static java.lang.Integer.parseInt;
-
 import java.util.Scanner;
 
 /* Single pair of rounds TEA decryption */
@@ -49,9 +47,6 @@ class DecryptTEA {
 
         R[0] = L[1];
         L[0] = DeTEA(R[1], L[1], key[0], key[1], delta1);
-
-        // R[0] = DeTEA(R[2], L[2], key[2], key[3], delta2);
-        // L[0] = DeTEA(L[2], R[0], key[0], key[1], delta1);
         
         String P = String.format("%08X", L[0]) + String.format("%08X", R[0]);
         
